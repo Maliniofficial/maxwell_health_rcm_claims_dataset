@@ -1,0 +1,501 @@
+claim_id,patient_id,provider_name,payer,claim_status,denial_reason,billed_amount,approved_amount,reimbursed_amount,claim_submission_date,claim_processed_date,processing_days,state
+CLM100000,PT2000,Maxwell Diagnostics,Blue Cross,Submitted,Missing Info,33642,28479,6530,01-01-2024,05-01-2024,9,IL
+CLM100001,PT2001,Maxwell Hospital,Blue Cross,Submitted,Invalid Code,27416,35562,11116,02-01-2024,06-01-2024,1,FL
+CLM100002,PT2002,Maxwell Diagnostics,UnitedHealthcare,Denied,Invalid Code,45465,12977,258,03-01-2024,07-01-2024,36,TX
+CLM100003,PT2003,Maxwell Diagnostics,Blue Cross,Denied,,5148,18568,282,04-01-2024,08-01-2024,35,IL
+CLM100004,PT2004,Maxwell Hospital,Aetna,Approved,Missing Info,35633,12630,13937,05-01-2024,09-01-2024,2,TX
+CLM100005,PT2005,Maxwell Hospital,Medicare,Approved,Missing Info,31023,21033,1898,06-01-2024,10-01-2024,40,FL
+CLM100006,PT2006,Maxwell Diagnostics,Medicare,Approved,Missing Info,29552,38247,4135,07-01-2024,11-01-2024,23,NY
+CLM100007,PT2007,Maxwell Clinic,Cigna,Pending,Missing Info,34914,27586,6629,08-01-2024,12-01-2024,9,TX
+CLM100008,PT2008,Maxwell Diagnostics,Blue Cross,Submitted,Missing Info,33281,6910,19584,09-01-2024,13-01-2024,34,CA
+CLM100009,PT2009,Maxwell Diagnostics,Aetna,Submitted,,5099,6730,23551,10-01-2024,14-01-2024,14,CA
+CLM100010,PT2010,Maxwell Diagnostics,Cigna,Approved,Coverage Expired,35546,14128,33380,11-01-2024,15-01-2024,4,IL
+CLM100011,PT2011,Maxwell Diagnostics,UnitedHealthcare,Submitted,Invalid Code,47564,31797,17071,12-01-2024,16-01-2024,30,FL
+CLM100012,PT2012,Maxwell Hospital,Cigna,Approved,Missing Info,36423,39556,20074,13-01-2024,17-01-2024,31,IL
+CLM100013,PT2013,Maxwell Diagnostics,Cigna,Pending,Coverage Expired,41589,36918,25188,14-01-2024,18-01-2024,38,IL
+CLM100014,PT2014,Maxwell Clinic,Blue Cross,Pending,Coverage Expired,4314,26826,2307,15-01-2024,19-01-2024,11,IL
+CLM100015,PT2015,Maxwell Hospital,UnitedHealthcare,Denied,Invalid Code,46393,30458,11205,16-01-2024,20-01-2024,35,CA
+CLM100016,PT2016,Maxwell Clinic,Cigna,Pending,,36484,25332,5906,17-01-2024,21-01-2024,8,CA
+CLM100017,PT2017,Maxwell Clinic,Aetna,Approved,Duplicate Claim,27116,38146,2591,18-01-2024,22-01-2024,3,IL
+CLM100018,PT2018,Maxwell Clinic,Aetna,Pending,Duplicate Claim,2613,30094,15149,19-01-2024,23-01-2024,14,CA
+CLM100019,PT2019,Maxwell Clinic,Medicare,Denied,Coverage Expired,43506,5748,25150,20-01-2024,24-01-2024,13,FL
+CLM100020,PT2020,Maxwell Hospital,UnitedHealthcare,Submitted,Invalid Code,14260,29161,31852,21-01-2024,25-01-2024,32,IL
+CLM100021,PT2021,Maxwell Hospital,UnitedHealthcare,Approved,Duplicate Claim,22427,28441,1283,22-01-2024,26-01-2024,34,CA
+CLM100022,PT2022,Maxwell Clinic,Medicare,Submitted,Coverage Expired,21439,9374,33691,23-01-2024,27-01-2024,19,TX
+CLM100023,PT2023,Maxwell Clinic,Cigna,Denied,,32919,6706,1125,24-01-2024,28-01-2024,38,IL
+CLM100024,PT2024,Maxwell Hospital,UnitedHealthcare,Denied,Duplicate Claim,13088,32123,1529,25-01-2024,29-01-2024,16,IL
+CLM100025,PT2025,Maxwell Hospital,Aetna,Denied,Coverage Expired,36642,23591,26170,26-01-2024,30-01-2024,2,FL
+CLM100026,PT2026,Maxwell Hospital,Aetna,Submitted,Coverage Expired,39698,32303,8438,27-01-2024,31-01-2024,40,NY
+CLM100027,PT2027,Maxwell Diagnostics,Blue Cross,Submitted,Missing Info,45238,34706,20095,28-01-2024,01-02-2024,17,NY
+CLM100028,PT2028,Maxwell Diagnostics,UnitedHealthcare,Submitted,,33897,23612,16154,29-01-2024,02-02-2024,34,FL
+CLM100029,PT2029,Maxwell Diagnostics,Cigna,Submitted,Missing Info,17153,1682,8004,30-01-2024,03-02-2024,42,FL
+CLM100030,PT2030,Maxwell Clinic,Medicare,Denied,Invalid Code,11331,34471,9752,31-01-2024,04-02-2024,16,FL
+CLM100031,PT2031,Maxwell Diagnostics,Medicare,Denied,Missing Info,6224,3592,26819,01-02-2024,05-02-2024,38,NY
+CLM100032,PT2032,Maxwell Clinic,Cigna,Approved,Missing Info,11583,33487,26515,02-02-2024,06-02-2024,2,FL
+CLM100033,PT2033,Maxwell Clinic,Blue Cross,Approved,Duplicate Claim,46417,12711,24217,03-02-2024,07-02-2024,2,CA
+CLM100034,PT2034,Maxwell Diagnostics,Medicare,Submitted,Coverage Expired,20316,37585,23172,04-02-2024,08-02-2024,26,IL
+CLM100035,PT2035,Maxwell Clinic,UnitedHealthcare,Pending,,42740,15722,32994,05-02-2024,09-02-2024,13,IL
+CLM100036,PT2036,Maxwell Diagnostics,Blue Cross,Pending,Missing Info,6776,32671,15036,06-02-2024,10-02-2024,31,TX
+CLM100037,PT2037,Maxwell Diagnostics,UnitedHealthcare,Denied,,48903,5993,11739,07-02-2024,11-02-2024,34,TX
+CLM100038,PT2038,Maxwell Hospital,Aetna,Denied,Missing Info,39163,33835,32220,08-02-2024,12-02-2024,39,IL
+CLM100039,PT2039,Maxwell Diagnostics,Blue Cross,Denied,Invalid Code,14494,15118,9587,09-02-2024,13-02-2024,3,CA
+CLM100040,PT2040,Maxwell Hospital,Medicare,Approved,Missing Info,23999,31538,30129,10-02-2024,14-02-2024,8,NY
+CLM100041,PT2041,Maxwell Diagnostics,Blue Cross,Approved,Duplicate Claim,23540,31174,645,11-02-2024,15-02-2024,23,NY
+CLM100042,PT2042,Maxwell Diagnostics,Blue Cross,Denied,Coverage Expired,43820,27015,30930,12-02-2024,16-02-2024,14,CA
+CLM100043,PT2043,Maxwell Hospital,Blue Cross,Denied,Invalid Code,17459,27905,16299,13-02-2024,17-02-2024,27,NY
+CLM100044,PT2044,Maxwell Hospital,Blue Cross,Denied,Missing Info,6599,34617,30090,14-02-2024,18-02-2024,29,FL
+CLM100045,PT2045,Maxwell Diagnostics,UnitedHealthcare,Pending,,42767,31474,21953,15-02-2024,19-02-2024,39,IL
+CLM100046,PT2046,Maxwell Clinic,Aetna,Approved,Invalid Code,20076,10256,26475,16-02-2024,20-02-2024,39,IL
+CLM100047,PT2047,Maxwell Hospital,Cigna,Pending,Invalid Code,36446,39208,18888,17-02-2024,21-02-2024,1,CA
+CLM100048,PT2048,Maxwell Clinic,Blue Cross,Pending,Missing Info,6616,11137,16087,18-02-2024,22-02-2024,17,NY
+CLM100049,PT2049,Maxwell Clinic,Medicare,Denied,Invalid Code,16063,4016,9346,19-02-2024,23-02-2024,41,TX
+CLM100050,PT2050,Maxwell Clinic,Blue Cross,Denied,,27288,4781,587,20-02-2024,24-02-2024,30,TX
+CLM100051,PT2051,Maxwell Hospital,Medicare,Submitted,Invalid Code,27428,24582,12763,21-02-2024,25-02-2024,13,NY
+CLM100052,PT2052,Maxwell Clinic,UnitedHealthcare,Submitted,,36836,6848,4079,22-02-2024,26-02-2024,21,TX
+CLM100053,PT2053,Maxwell Hospital,Medicare,Pending,Missing Info,10347,37905,20215,23-02-2024,27-02-2024,19,CA
+CLM100054,PT2054,Maxwell Clinic,Cigna,Approved,Coverage Expired,26655,8058,25817,24-02-2024,28-02-2024,19,CA
+CLM100055,PT2055,Maxwell Diagnostics,Aetna,Denied,Invalid Code,14635,23477,24765,25-02-2024,29-02-2024,25,NY
+CLM100056,PT2056,Maxwell Diagnostics,Medicare,Denied,Coverage Expired,18274,24322,30112,26-02-2024,01-03-2024,22,TX
+CLM100057,PT2057,Maxwell Hospital,Medicare,Pending,,2242,5842,25556,27-02-2024,02-03-2024,31,CA
+CLM100058,PT2058,Maxwell Diagnostics,Aetna,Submitted,Invalid Code,18809,25776,18099,28-02-2024,03-03-2024,17,CA
+CLM100059,PT2059,Maxwell Diagnostics,Cigna,Approved,Duplicate Claim,1119,31084,6450,29-02-2024,04-03-2024,23,FL
+CLM100060,PT2060,Maxwell Clinic,Blue Cross,Submitted,Coverage Expired,18158,23040,13230,01-03-2024,05-03-2024,32,FL
+CLM100061,PT2061,Maxwell Hospital,Medicare,Submitted,Invalid Code,35207,25117,29009,02-03-2024,06-03-2024,10,CA
+CLM100062,PT2062,Maxwell Clinic,Aetna,Submitted,Coverage Expired,20837,16352,5433,03-03-2024,07-03-2024,10,NY
+CLM100063,PT2063,Maxwell Clinic,UnitedHealthcare,Submitted,Invalid Code,16501,35453,33866,04-03-2024,08-03-2024,36,IL
+CLM100064,PT2064,Maxwell Clinic,Aetna,Denied,Missing Info,1468,971,18710,05-03-2024,09-03-2024,8,IL
+CLM100065,PT2065,Maxwell Clinic,UnitedHealthcare,Denied,Coverage Expired,48114,463,11439,06-03-2024,10-03-2024,20,CA
+CLM100066,PT2066,Maxwell Clinic,Cigna,Submitted,Duplicate Claim,26392,5095,16021,07-03-2024,11-03-2024,32,CA
+CLM100067,PT2067,Maxwell Clinic,Blue Cross,Approved,Duplicate Claim,26119,10934,6416,08-03-2024,12-03-2024,14,CA
+CLM100068,PT2068,Maxwell Clinic,Aetna,Pending,,781,5098,6980,09-03-2024,13-03-2024,28,NY
+CLM100069,PT2069,Maxwell Hospital,Medicare,Approved,Invalid Code,27920,22720,18058,10-03-2024,14-03-2024,24,FL
+CLM100070,PT2070,Maxwell Diagnostics,Cigna,Approved,Coverage Expired,15860,29600,11101,11-03-2024,15-03-2024,15,CA
+CLM100071,PT2071,Maxwell Clinic,Aetna,Approved,,39530,24645,32602,12-03-2024,16-03-2024,22,CA
+CLM100072,PT2072,Maxwell Clinic,Medicare,Submitted,Coverage Expired,1558,11049,9122,13-03-2024,17-03-2024,30,TX
+CLM100073,PT2073,Maxwell Clinic,Aetna,Denied,Invalid Code,21177,38895,12576,14-03-2024,18-03-2024,4,NY
+CLM100074,PT2074,Maxwell Clinic,UnitedHealthcare,Approved,Duplicate Claim,11224,25421,27516,15-03-2024,19-03-2024,13,CA
+CLM100075,PT2075,Maxwell Clinic,Aetna,Submitted,Missing Info,28904,37787,22433,16-03-2024,20-03-2024,23,TX
+CLM100076,PT2076,Maxwell Clinic,Aetna,Approved,Duplicate Claim,38446,28711,1089,17-03-2024,21-03-2024,8,IL
+CLM100077,PT2077,Maxwell Diagnostics,Aetna,Approved,,40248,33661,9127,18-03-2024,22-03-2024,18,CA
+CLM100078,PT2078,Maxwell Diagnostics,Cigna,Submitted,Missing Info,30356,21523,10487,19-03-2024,23-03-2024,12,CA
+CLM100079,PT2079,Maxwell Clinic,Aetna,Denied,,9700,7694,155,20-03-2024,24-03-2024,31,TX
+CLM100080,PT2080,Maxwell Diagnostics,Medicare,Denied,Invalid Code,34497,14356,1958,21-03-2024,25-03-2024,14,NY
+CLM100081,PT2081,Maxwell Hospital,UnitedHealthcare,Pending,Missing Info,26111,28680,10693,22-03-2024,26-03-2024,34,CA
+CLM100082,PT2082,Maxwell Clinic,UnitedHealthcare,Submitted,,41735,26335,28795,23-03-2024,27-03-2024,18,IL
+CLM100083,PT2083,Maxwell Hospital,Aetna,Pending,Invalid Code,35557,30920,21447,24-03-2024,28-03-2024,34,CA
+CLM100084,PT2084,Maxwell Hospital,Cigna,Pending,Duplicate Claim,1739,20177,25215,25-03-2024,29-03-2024,11,IL
+CLM100085,PT2085,Maxwell Clinic,Cigna,Pending,Invalid Code,38638,31211,9794,26-03-2024,30-03-2024,41,FL
+CLM100086,PT2086,Maxwell Diagnostics,Medicare,Denied,Coverage Expired,49438,33084,33209,27-03-2024,31-03-2024,12,FL
+CLM100087,PT2087,Maxwell Hospital,Aetna,Submitted,Invalid Code,625,3491,22424,28-03-2024,01-04-2024,15,IL
+CLM100088,PT2088,Maxwell Clinic,UnitedHealthcare,Pending,Invalid Code,45772,33460,6370,29-03-2024,02-04-2024,31,NY
+CLM100089,PT2089,Maxwell Hospital,Cigna,Submitted,Coverage Expired,24357,25300,9528,30-03-2024,03-04-2024,29,CA
+CLM100090,PT2090,Maxwell Hospital,Aetna,Submitted,,15898,39340,28276,31-03-2024,04-04-2024,26,CA
+CLM100091,PT2091,Maxwell Hospital,Cigna,Denied,,7138,3931,8179,01-04-2024,05-04-2024,18,FL
+CLM100092,PT2092,Maxwell Hospital,Cigna,Pending,Invalid Code,7070,6472,16843,02-04-2024,06-04-2024,32,IL
+CLM100093,PT2093,Maxwell Diagnostics,UnitedHealthcare,Pending,Coverage Expired,3749,23861,23952,03-04-2024,07-04-2024,22,CA
+CLM100094,PT2094,Maxwell Hospital,Blue Cross,Submitted,Coverage Expired,9610,25117,33160,04-04-2024,08-04-2024,38,CA
+CLM100095,PT2095,Maxwell Hospital,Medicare,Approved,Duplicate Claim,40863,20581,29516,05-04-2024,09-04-2024,17,NY
+CLM100096,PT2096,Maxwell Hospital,Medicare,Denied,,14105,28971,10449,06-04-2024,10-04-2024,23,TX
+CLM100097,PT2097,Maxwell Diagnostics,UnitedHealthcare,Denied,Missing Info,12615,25664,21125,07-04-2024,11-04-2024,24,FL
+CLM100098,PT2098,Maxwell Hospital,Cigna,Denied,,39562,27725,7418,08-04-2024,12-04-2024,8,FL
+CLM100099,PT2099,Maxwell Hospital,Aetna,Denied,,23411,28902,22746,09-04-2024,13-04-2024,41,TX
+CLM100100,PT2100,Maxwell Diagnostics,Cigna,Pending,Duplicate Claim,39025,23553,2454,10-04-2024,14-04-2024,6,CA
+CLM100101,PT2101,Maxwell Diagnostics,UnitedHealthcare,Pending,Missing Info,33056,23772,17761,11-04-2024,15-04-2024,5,NY
+CLM100102,PT2102,Maxwell Diagnostics,Medicare,Approved,Duplicate Claim,13095,8380,15223,12-04-2024,16-04-2024,44,NY
+CLM100103,PT2103,Maxwell Hospital,Cigna,Denied,Missing Info,2469,7399,6701,13-04-2024,17-04-2024,29,FL
+CLM100104,PT2104,Maxwell Diagnostics,Medicare,Denied,Invalid Code,44253,25731,2597,14-04-2024,18-04-2024,28,NY
+CLM100105,PT2105,Maxwell Diagnostics,Aetna,Submitted,Missing Info,17775,31486,141,15-04-2024,19-04-2024,11,TX
+CLM100106,PT2106,Maxwell Hospital,Medicare,Pending,Duplicate Claim,4970,30411,2659,16-04-2024,20-04-2024,1,CA
+CLM100107,PT2107,Maxwell Diagnostics,Medicare,Denied,,10725,22914,20980,17-04-2024,21-04-2024,43,TX
+CLM100108,PT2108,Maxwell Hospital,Blue Cross,Approved,Missing Info,42824,27024,9031,18-04-2024,22-04-2024,19,IL
+CLM100109,PT2109,Maxwell Clinic,Blue Cross,Approved,Missing Info,42474,5240,15037,19-04-2024,23-04-2024,9,FL
+CLM100110,PT2110,Maxwell Diagnostics,Blue Cross,Pending,Coverage Expired,43259,29058,6142,20-04-2024,24-04-2024,27,NY
+CLM100111,PT2111,Maxwell Clinic,Medicare,Approved,,23696,36524,12109,21-04-2024,25-04-2024,34,IL
+CLM100112,PT2112,Maxwell Hospital,UnitedHealthcare,Approved,Invalid Code,40787,8088,22010,22-04-2024,26-04-2024,44,NY
+CLM100113,PT2113,Maxwell Diagnostics,Medicare,Pending,Duplicate Claim,14169,28382,8787,23-04-2024,27-04-2024,4,CA
+CLM100114,PT2114,Maxwell Hospital,UnitedHealthcare,Denied,Invalid Code,37880,24334,8472,24-04-2024,28-04-2024,36,CA
+CLM100115,PT2115,Maxwell Clinic,UnitedHealthcare,Denied,,45641,35779,23383,25-04-2024,29-04-2024,18,CA
+CLM100116,PT2116,Maxwell Hospital,Blue Cross,Approved,Missing Info,48820,11580,4249,26-04-2024,30-04-2024,15,NY
+CLM100117,PT2117,Maxwell Diagnostics,Cigna,Approved,Missing Info,47914,18352,34518,27-04-2024,01-05-2024,13,IL
+CLM100118,PT2118,Maxwell Diagnostics,Aetna,Denied,,38506,16831,18351,28-04-2024,02-05-2024,19,CA
+CLM100119,PT2119,Maxwell Clinic,Blue Cross,Pending,Missing Info,16077,23104,4088,29-04-2024,03-05-2024,6,IL
+CLM100120,PT2120,Maxwell Hospital,Blue Cross,Approved,Missing Info,22973,29203,15282,30-04-2024,04-05-2024,12,NY
+CLM100121,PT2121,Maxwell Diagnostics,Cigna,Submitted,Missing Info,29125,10442,19330,01-05-2024,05-05-2024,37,IL
+CLM100122,PT2122,Maxwell Clinic,Aetna,Pending,Duplicate Claim,16004,10166,21778,02-05-2024,06-05-2024,17,NY
+CLM100123,PT2123,Maxwell Diagnostics,Medicare,Approved,Duplicate Claim,24589,4831,24264,03-05-2024,07-05-2024,23,NY
+CLM100124,PT2124,Maxwell Diagnostics,Medicare,Approved,Coverage Expired,36987,38398,5075,04-05-2024,08-05-2024,26,FL
+CLM100125,PT2125,Maxwell Hospital,Blue Cross,Submitted,Invalid Code,802,38578,10412,05-05-2024,09-05-2024,29,NY
+CLM100126,PT2126,Maxwell Diagnostics,Aetna,Submitted,,31963,28438,28365,06-05-2024,10-05-2024,33,NY
+CLM100127,PT2127,Maxwell Hospital,Blue Cross,Denied,,45412,27365,7230,07-05-2024,11-05-2024,27,TX
+CLM100128,PT2128,Maxwell Diagnostics,UnitedHealthcare,Pending,,29759,30256,11002,08-05-2024,12-05-2024,25,CA
+CLM100129,PT2129,Maxwell Clinic,Blue Cross,Pending,Coverage Expired,43323,39561,13947,09-05-2024,13-05-2024,10,FL
+CLM100130,PT2130,Maxwell Diagnostics,Blue Cross,Denied,Duplicate Claim,37708,11059,13686,10-05-2024,14-05-2024,23,FL
+CLM100131,PT2131,Maxwell Hospital,Medicare,Pending,Coverage Expired,31159,5739,29304,11-05-2024,15-05-2024,21,FL
+CLM100132,PT2132,Maxwell Hospital,Medicare,Pending,,36340,28570,13074,12-05-2024,16-05-2024,21,TX
+CLM100133,PT2133,Maxwell Clinic,Medicare,Pending,Invalid Code,32390,13579,4493,13-05-2024,17-05-2024,43,NY
+CLM100134,PT2134,Maxwell Diagnostics,UnitedHealthcare,Pending,Missing Info,14098,39579,34228,14-05-2024,18-05-2024,13,CA
+CLM100135,PT2135,Maxwell Diagnostics,Medicare,Pending,Duplicate Claim,47555,24188,14140,15-05-2024,19-05-2024,37,IL
+CLM100136,PT2136,Maxwell Clinic,Aetna,Submitted,Duplicate Claim,47233,17930,31655,16-05-2024,20-05-2024,33,NY
+CLM100137,PT2137,Maxwell Diagnostics,Cigna,Pending,Coverage Expired,20008,35444,6816,17-05-2024,21-05-2024,24,TX
+CLM100138,PT2138,Maxwell Diagnostics,Aetna,Submitted,Duplicate Claim,42787,31482,11639,18-05-2024,22-05-2024,44,NY
+CLM100139,PT2139,Maxwell Hospital,Aetna,Pending,,13880,25838,29492,19-05-2024,23-05-2024,11,NY
+CLM100140,PT2140,Maxwell Diagnostics,Medicare,Denied,,27484,12124,11240,20-05-2024,24-05-2024,17,TX
+CLM100141,PT2141,Maxwell Diagnostics,Cigna,Approved,Coverage Expired,45133,32425,32698,21-05-2024,25-05-2024,4,FL
+CLM100142,PT2142,Maxwell Clinic,Cigna,Submitted,,8625,7279,26957,22-05-2024,26-05-2024,25,FL
+CLM100143,PT2143,Maxwell Clinic,Cigna,Pending,Invalid Code,36559,26489,32808,23-05-2024,27-05-2024,30,CA
+CLM100144,PT2144,Maxwell Hospital,UnitedHealthcare,Denied,Coverage Expired,4533,12804,5827,24-05-2024,28-05-2024,9,CA
+CLM100145,PT2145,Maxwell Diagnostics,Medicare,Approved,Invalid Code,38373,20969,32762,25-05-2024,29-05-2024,21,FL
+CLM100146,PT2146,Maxwell Diagnostics,Cigna,Submitted,Missing Info,17587,7210,8259,26-05-2024,30-05-2024,20,IL
+CLM100147,PT2147,Maxwell Diagnostics,UnitedHealthcare,Approved,Invalid Code,41401,35264,14849,27-05-2024,31-05-2024,19,NY
+CLM100148,PT2148,Maxwell Hospital,Blue Cross,Denied,Missing Info,6204,20431,16232,28-05-2024,01-06-2024,19,IL
+CLM100149,PT2149,Maxwell Hospital,Blue Cross,Submitted,Missing Info,8348,25527,24173,29-05-2024,02-06-2024,12,NY
+CLM100150,PT2150,Maxwell Clinic,UnitedHealthcare,Approved,Invalid Code,22092,6278,5374,30-05-2024,03-06-2024,37,FL
+CLM100151,PT2151,Maxwell Hospital,UnitedHealthcare,Pending,Coverage Expired,46243,22291,21174,31-05-2024,04-06-2024,42,CA
+CLM100152,PT2152,Maxwell Diagnostics,Medicare,Submitted,,7424,17453,23567,01-06-2024,05-06-2024,17,CA
+CLM100153,PT2153,Maxwell Diagnostics,Medicare,Approved,,27708,33848,9277,02-06-2024,06-06-2024,37,IL
+CLM100154,PT2154,Maxwell Hospital,Blue Cross,Denied,Missing Info,20114,39371,31600,03-06-2024,07-06-2024,39,CA
+CLM100155,PT2155,Maxwell Diagnostics,Cigna,Denied,Missing Info,988,4283,9885,04-06-2024,08-06-2024,28,FL
+CLM100156,PT2156,Maxwell Diagnostics,Blue Cross,Submitted,Coverage Expired,40382,9803,778,05-06-2024,09-06-2024,41,IL
+CLM100157,PT2157,Maxwell Hospital,Cigna,Approved,Duplicate Claim,26423,30221,29165,06-06-2024,10-06-2024,35,NY
+CLM100158,PT2158,Maxwell Hospital,Cigna,Submitted,Invalid Code,49008,17205,1492,07-06-2024,11-06-2024,18,CA
+CLM100159,PT2159,Maxwell Diagnostics,Medicare,Submitted,Missing Info,36441,24253,30462,08-06-2024,12-06-2024,14,TX
+CLM100160,PT2160,Maxwell Diagnostics,Aetna,Approved,,29665,27106,13615,09-06-2024,13-06-2024,35,CA
+CLM100161,PT2161,Maxwell Diagnostics,Aetna,Approved,Coverage Expired,2167,22468,7851,10-06-2024,14-06-2024,44,NY
+CLM100162,PT2162,Maxwell Clinic,UnitedHealthcare,Pending,Invalid Code,26713,4883,16288,11-06-2024,15-06-2024,41,IL
+CLM100163,PT2163,Maxwell Clinic,Medicare,Approved,Coverage Expired,4614,39014,7156,12-06-2024,16-06-2024,7,NY
+CLM100164,PT2164,Maxwell Clinic,Cigna,Denied,Invalid Code,36821,12189,2044,13-06-2024,17-06-2024,41,TX
+CLM100165,PT2165,Maxwell Hospital,Aetna,Submitted,Invalid Code,8261,27713,7368,14-06-2024,18-06-2024,13,FL
+CLM100166,PT2166,Maxwell Clinic,Cigna,Submitted,Missing Info,31616,12575,19900,15-06-2024,19-06-2024,18,CA
+CLM100167,PT2167,Maxwell Hospital,Aetna,Denied,Coverage Expired,34268,2761,30600,16-06-2024,20-06-2024,37,IL
+CLM100168,PT2168,Maxwell Hospital,Aetna,Approved,Coverage Expired,48906,14591,25634,17-06-2024,21-06-2024,13,FL
+CLM100169,PT2169,Maxwell Clinic,Aetna,Denied,,25926,11735,9168,18-06-2024,22-06-2024,36,NY
+CLM100170,PT2170,Maxwell Clinic,Medicare,Denied,,18272,28235,20961,19-06-2024,23-06-2024,31,IL
+CLM100171,PT2171,Maxwell Clinic,Blue Cross,Pending,Missing Info,38718,33753,23852,20-06-2024,24-06-2024,2,FL
+CLM100172,PT2172,Maxwell Diagnostics,Cigna,Denied,Missing Info,4212,18844,33110,21-06-2024,25-06-2024,16,IL
+CLM100173,PT2173,Maxwell Clinic,Medicare,Submitted,Duplicate Claim,1867,12558,32174,22-06-2024,26-06-2024,9,TX
+CLM100174,PT2174,Maxwell Diagnostics,Medicare,Denied,,41457,31141,34215,23-06-2024,27-06-2024,9,TX
+CLM100175,PT2175,Maxwell Hospital,Medicare,Submitted,Invalid Code,42281,11036,26955,24-06-2024,28-06-2024,38,CA
+CLM100176,PT2176,Maxwell Diagnostics,Medicare,Submitted,Coverage Expired,26700,37943,6581,25-06-2024,29-06-2024,11,CA
+CLM100177,PT2177,Maxwell Clinic,Medicare,Submitted,Missing Info,4226,35264,6317,26-06-2024,30-06-2024,22,TX
+CLM100178,PT2178,Maxwell Hospital,UnitedHealthcare,Approved,Coverage Expired,24116,28344,26649,27-06-2024,01-07-2024,33,IL
+CLM100179,PT2179,Maxwell Hospital,Cigna,Pending,Coverage Expired,28223,16297,23132,28-06-2024,02-07-2024,36,TX
+CLM100180,PT2180,Maxwell Hospital,Medicare,Submitted,Duplicate Claim,38074,14515,16789,29-06-2024,03-07-2024,23,CA
+CLM100181,PT2181,Maxwell Diagnostics,Cigna,Submitted,,35458,33369,14567,30-06-2024,04-07-2024,34,TX
+CLM100182,PT2182,Maxwell Clinic,UnitedHealthcare,Approved,Missing Info,9608,24211,14868,01-07-2024,05-07-2024,9,TX
+CLM100183,PT2183,Maxwell Hospital,UnitedHealthcare,Submitted,Coverage Expired,12678,17330,24370,02-07-2024,06-07-2024,24,IL
+CLM100184,PT2184,Maxwell Hospital,Cigna,Denied,Missing Info,36143,29634,30483,03-07-2024,07-07-2024,8,FL
+CLM100185,PT2185,Maxwell Hospital,Aetna,Denied,Invalid Code,31824,14871,12466,04-07-2024,08-07-2024,7,CA
+CLM100186,PT2186,Maxwell Diagnostics,Blue Cross,Pending,Duplicate Claim,38860,29227,28803,05-07-2024,09-07-2024,36,IL
+CLM100187,PT2187,Maxwell Diagnostics,Aetna,Submitted,Invalid Code,18324,21014,18230,06-07-2024,10-07-2024,18,TX
+CLM100188,PT2188,Maxwell Clinic,Aetna,Approved,Missing Info,45860,23687,17862,07-07-2024,11-07-2024,3,TX
+CLM100189,PT2189,Maxwell Diagnostics,Aetna,Denied,Missing Info,9427,28744,31259,08-07-2024,12-07-2024,28,FL
+CLM100190,PT2190,Maxwell Hospital,Medicare,Approved,,28644,20221,33539,09-07-2024,13-07-2024,6,CA
+CLM100191,PT2191,Maxwell Clinic,UnitedHealthcare,Approved,Coverage Expired,31510,13357,21909,10-07-2024,14-07-2024,44,CA
+CLM100192,PT2192,Maxwell Hospital,Aetna,Denied,Coverage Expired,22943,25158,30795,11-07-2024,15-07-2024,44,NY
+CLM100193,PT2193,Maxwell Hospital,UnitedHealthcare,Approved,Invalid Code,14937,26362,8770,12-07-2024,16-07-2024,21,CA
+CLM100194,PT2194,Maxwell Diagnostics,Cigna,Denied,Duplicate Claim,44798,37150,11093,13-07-2024,17-07-2024,28,FL
+CLM100195,PT2195,Maxwell Clinic,Blue Cross,Approved,Coverage Expired,40278,20867,193,14-07-2024,18-07-2024,40,NY
+CLM100196,PT2196,Maxwell Diagnostics,Cigna,Denied,,11707,30039,34775,15-07-2024,19-07-2024,1,NY
+CLM100197,PT2197,Maxwell Diagnostics,Cigna,Submitted,Invalid Code,26037,4054,17569,16-07-2024,20-07-2024,36,TX
+CLM100198,PT2198,Maxwell Clinic,Medicare,Pending,Invalid Code,36257,27344,11190,17-07-2024,21-07-2024,21,TX
+CLM100199,PT2199,Maxwell Hospital,Blue Cross,Denied,,12540,2024,32327,18-07-2024,22-07-2024,43,CA
+CLM100200,PT2200,Maxwell Hospital,Cigna,Denied,Duplicate Claim,42486,1676,20389,19-07-2024,23-07-2024,35,NY
+CLM100201,PT2201,Maxwell Clinic,Cigna,Pending,,23112,9006,2261,20-07-2024,24-07-2024,13,TX
+CLM100202,PT2202,Maxwell Hospital,Blue Cross,Denied,Duplicate Claim,28941,9194,28369,21-07-2024,25-07-2024,10,FL
+CLM100203,PT2203,Maxwell Clinic,Blue Cross,Denied,,6971,18337,26512,22-07-2024,26-07-2024,44,TX
+CLM100204,PT2204,Maxwell Clinic,Cigna,Approved,,36131,18750,6716,23-07-2024,27-07-2024,10,TX
+CLM100205,PT2205,Maxwell Diagnostics,Blue Cross,Pending,Missing Info,43961,16706,21259,24-07-2024,28-07-2024,13,NY
+CLM100206,PT2206,Maxwell Clinic,Cigna,Submitted,Invalid Code,27023,30025,28933,25-07-2024,29-07-2024,37,NY
+CLM100207,PT2207,Maxwell Diagnostics,Cigna,Denied,,31848,6226,4378,26-07-2024,30-07-2024,38,IL
+CLM100208,PT2208,Maxwell Hospital,Medicare,Pending,,1677,39319,19835,27-07-2024,31-07-2024,24,FL
+CLM100209,PT2209,Maxwell Hospital,Aetna,Approved,Coverage Expired,5260,9796,29033,28-07-2024,01-08-2024,2,NY
+CLM100210,PT2210,Maxwell Hospital,Cigna,Submitted,Invalid Code,33279,36368,24000,29-07-2024,02-08-2024,22,CA
+CLM100211,PT2211,Maxwell Hospital,UnitedHealthcare,Pending,Coverage Expired,22136,30106,10332,30-07-2024,03-08-2024,17,FL
+CLM100212,PT2212,Maxwell Diagnostics,Aetna,Submitted,Invalid Code,16853,22963,2800,31-07-2024,04-08-2024,36,FL
+CLM100213,PT2213,Maxwell Hospital,Aetna,Submitted,Coverage Expired,12056,36795,29538,01-08-2024,05-08-2024,14,NY
+CLM100214,PT2214,Maxwell Clinic,Aetna,Submitted,,28098,22956,30119,02-08-2024,06-08-2024,10,FL
+CLM100215,PT2215,Maxwell Clinic,Medicare,Denied,,12063,26160,8333,03-08-2024,07-08-2024,35,NY
+CLM100216,PT2216,Maxwell Clinic,Cigna,Denied,Missing Info,47319,17132,5410,04-08-2024,08-08-2024,25,TX
+CLM100217,PT2217,Maxwell Diagnostics,Medicare,Approved,Coverage Expired,44290,39087,17839,05-08-2024,09-08-2024,3,IL
+CLM100218,PT2218,Maxwell Hospital,Cigna,Approved,Duplicate Claim,8734,22027,30519,06-08-2024,10-08-2024,38,TX
+CLM100219,PT2219,Maxwell Hospital,Medicare,Pending,Missing Info,26019,29845,5808,07-08-2024,11-08-2024,17,NY
+CLM100220,PT2220,Maxwell Hospital,Medicare,Approved,Coverage Expired,27466,2820,6796,08-08-2024,12-08-2024,12,NY
+CLM100221,PT2221,Maxwell Diagnostics,UnitedHealthcare,Submitted,Coverage Expired,16673,3381,21180,09-08-2024,13-08-2024,24,TX
+CLM100222,PT2222,Maxwell Clinic,Medicare,Submitted,Missing Info,27487,34496,17709,10-08-2024,14-08-2024,29,CA
+CLM100223,PT2223,Maxwell Clinic,Blue Cross,Denied,,13678,37035,17543,11-08-2024,15-08-2024,43,CA
+CLM100224,PT2224,Maxwell Hospital,UnitedHealthcare,Submitted,Coverage Expired,39838,39513,29075,12-08-2024,16-08-2024,25,CA
+CLM100225,PT2225,Maxwell Clinic,Medicare,Pending,,25096,14866,30502,13-08-2024,17-08-2024,36,NY
+CLM100226,PT2226,Maxwell Clinic,Aetna,Submitted,Missing Info,33674,14342,16724,14-08-2024,18-08-2024,26,FL
+CLM100227,PT2227,Maxwell Diagnostics,Blue Cross,Submitted,,42474,25798,3828,15-08-2024,19-08-2024,38,NY
+CLM100228,PT2228,Maxwell Diagnostics,Blue Cross,Pending,Invalid Code,4931,11629,17087,16-08-2024,20-08-2024,1,FL
+CLM100229,PT2229,Maxwell Diagnostics,Blue Cross,Approved,Duplicate Claim,28264,31956,12605,17-08-2024,21-08-2024,20,TX
+CLM100230,PT2230,Maxwell Diagnostics,UnitedHealthcare,Approved,Coverage Expired,22127,2459,31337,18-08-2024,22-08-2024,28,IL
+CLM100231,PT2231,Maxwell Hospital,Medicare,Pending,Duplicate Claim,39810,38200,5482,19-08-2024,23-08-2024,16,FL
+CLM100232,PT2232,Maxwell Diagnostics,Medicare,Denied,,9406,19663,27005,20-08-2024,24-08-2024,17,CA
+CLM100233,PT2233,Maxwell Clinic,Aetna,Submitted,Coverage Expired,37414,19333,22760,21-08-2024,25-08-2024,40,NY
+CLM100234,PT2234,Maxwell Hospital,Aetna,Pending,,45314,11105,5463,22-08-2024,26-08-2024,28,TX
+CLM100235,PT2235,Maxwell Clinic,Blue Cross,Submitted,Invalid Code,45879,36151,4912,23-08-2024,27-08-2024,12,CA
+CLM100236,PT2236,Maxwell Clinic,Aetna,Denied,Missing Info,13576,27132,4648,24-08-2024,28-08-2024,27,TX
+CLM100237,PT2237,Maxwell Clinic,UnitedHealthcare,Submitted,Coverage Expired,49792,14244,33623,25-08-2024,29-08-2024,42,IL
+CLM100238,PT2238,Maxwell Diagnostics,Medicare,Pending,Invalid Code,38150,20173,3112,26-08-2024,30-08-2024,30,NY
+CLM100239,PT2239,Maxwell Diagnostics,Blue Cross,Submitted,Invalid Code,47381,24228,22054,27-08-2024,31-08-2024,41,NY
+CLM100240,PT2240,Maxwell Hospital,Aetna,Approved,Coverage Expired,46913,15679,4492,28-08-2024,01-09-2024,34,IL
+CLM100241,PT2241,Maxwell Hospital,UnitedHealthcare,Denied,,6512,37051,22207,29-08-2024,02-09-2024,37,NY
+CLM100242,PT2242,Maxwell Diagnostics,UnitedHealthcare,Denied,Invalid Code,7651,34846,15114,30-08-2024,03-09-2024,6,FL
+CLM100243,PT2243,Maxwell Clinic,Aetna,Denied,Duplicate Claim,28711,24586,34285,31-08-2024,04-09-2024,7,TX
+CLM100244,PT2244,Maxwell Hospital,Medicare,Pending,Invalid Code,27617,5410,16018,01-09-2024,05-09-2024,32,CA
+CLM100245,PT2245,Maxwell Diagnostics,Aetna,Denied,,36878,12387,21386,02-09-2024,06-09-2024,32,IL
+CLM100246,PT2246,Maxwell Diagnostics,Blue Cross,Approved,,43152,24062,17740,03-09-2024,07-09-2024,25,FL
+CLM100247,PT2247,Maxwell Diagnostics,Aetna,Pending,Duplicate Claim,7394,17381,8210,04-09-2024,08-09-2024,33,CA
+CLM100248,PT2248,Maxwell Clinic,UnitedHealthcare,Approved,Invalid Code,13967,35247,12743,05-09-2024,09-09-2024,7,CA
+CLM100249,PT2249,Maxwell Diagnostics,Aetna,Submitted,,31510,9896,6588,06-09-2024,10-09-2024,12,IL
+CLM100250,PT2250,Maxwell Diagnostics,Medicare,Submitted,Coverage Expired,49757,38319,3311,07-09-2024,11-09-2024,16,FL
+CLM100251,PT2251,Maxwell Diagnostics,Cigna,Submitted,Missing Info,43141,18613,22432,08-09-2024,12-09-2024,16,CA
+CLM100252,PT2252,Maxwell Diagnostics,Aetna,Submitted,Missing Info,12789,1313,33755,09-09-2024,13-09-2024,43,CA
+CLM100253,PT2253,Maxwell Hospital,Medicare,Approved,Missing Info,45476,24005,3321,10-09-2024,14-09-2024,36,FL
+CLM100254,PT2254,Maxwell Hospital,Medicare,Pending,Invalid Code,44096,2128,15812,11-09-2024,15-09-2024,13,NY
+CLM100255,PT2255,Maxwell Diagnostics,UnitedHealthcare,Pending,Duplicate Claim,23671,8209,13146,12-09-2024,16-09-2024,7,CA
+CLM100256,PT2256,Maxwell Clinic,Medicare,Denied,,35405,38656,13654,13-09-2024,17-09-2024,36,TX
+CLM100257,PT2257,Maxwell Hospital,Medicare,Approved,Coverage Expired,21329,13409,726,14-09-2024,18-09-2024,9,FL
+CLM100258,PT2258,Maxwell Diagnostics,Medicare,Submitted,Coverage Expired,34554,2323,3760,15-09-2024,19-09-2024,32,CA
+CLM100259,PT2259,Maxwell Hospital,Medicare,Approved,Invalid Code,48978,14837,22190,16-09-2024,20-09-2024,11,IL
+CLM100260,PT2260,Maxwell Hospital,Blue Cross,Denied,Missing Info,44639,26961,1875,17-09-2024,21-09-2024,8,TX
+CLM100261,PT2261,Maxwell Clinic,Blue Cross,Denied,Invalid Code,49213,38959,23377,18-09-2024,22-09-2024,33,CA
+CLM100262,PT2262,Maxwell Diagnostics,UnitedHealthcare,Approved,Duplicate Claim,30234,34148,4033,19-09-2024,23-09-2024,23,TX
+CLM100263,PT2263,Maxwell Diagnostics,Aetna,Approved,Duplicate Claim,7552,38104,17373,20-09-2024,24-09-2024,25,TX
+CLM100264,PT2264,Maxwell Clinic,Medicare,Approved,,4154,15679,3744,21-09-2024,25-09-2024,8,NY
+CLM100265,PT2265,Maxwell Clinic,Aetna,Pending,,23986,28066,24995,22-09-2024,26-09-2024,22,TX
+CLM100266,PT2266,Maxwell Diagnostics,Aetna,Submitted,Duplicate Claim,19243,2863,16977,23-09-2024,27-09-2024,4,NY
+CLM100267,PT2267,Maxwell Diagnostics,UnitedHealthcare,Approved,Duplicate Claim,48868,36360,32402,24-09-2024,28-09-2024,40,FL
+CLM100268,PT2268,Maxwell Clinic,Medicare,Approved,Duplicate Claim,24989,29497,34542,25-09-2024,29-09-2024,3,NY
+CLM100269,PT2269,Maxwell Hospital,Medicare,Approved,Invalid Code,9136,3886,10651,26-09-2024,30-09-2024,29,IL
+CLM100270,PT2270,Maxwell Hospital,Cigna,Denied,Duplicate Claim,6941,16387,33703,27-09-2024,01-10-2024,41,CA
+CLM100271,PT2271,Maxwell Clinic,Aetna,Denied,Coverage Expired,25111,23525,13395,28-09-2024,02-10-2024,29,FL
+CLM100272,PT2272,Maxwell Hospital,Aetna,Pending,Missing Info,42935,30050,29808,29-09-2024,03-10-2024,34,FL
+CLM100273,PT2273,Maxwell Clinic,Blue Cross,Submitted,Duplicate Claim,12649,6943,16715,30-09-2024,04-10-2024,34,IL
+CLM100274,PT2274,Maxwell Hospital,Cigna,Pending,Missing Info,35066,27823,24306,01-10-2024,05-10-2024,28,NY
+CLM100275,PT2275,Maxwell Hospital,Blue Cross,Submitted,Invalid Code,42868,37027,19086,02-10-2024,06-10-2024,13,CA
+CLM100276,PT2276,Maxwell Diagnostics,Blue Cross,Denied,Missing Info,22175,11305,14376,03-10-2024,07-10-2024,15,NY
+CLM100277,PT2277,Maxwell Diagnostics,Blue Cross,Denied,Invalid Code,5995,461,5889,04-10-2024,08-10-2024,23,TX
+CLM100278,PT2278,Maxwell Hospital,UnitedHealthcare,Denied,Coverage Expired,43168,16329,20584,05-10-2024,09-10-2024,44,NY
+CLM100279,PT2279,Maxwell Hospital,UnitedHealthcare,Pending,Invalid Code,14173,14526,34610,06-10-2024,10-10-2024,26,FL
+CLM100280,PT2280,Maxwell Diagnostics,Blue Cross,Approved,Invalid Code,11630,29031,10058,07-10-2024,11-10-2024,4,CA
+CLM100281,PT2281,Maxwell Diagnostics,Cigna,Approved,,23168,3690,9101,08-10-2024,12-10-2024,26,NY
+CLM100282,PT2282,Maxwell Diagnostics,Aetna,Denied,Duplicate Claim,15722,6297,12497,09-10-2024,13-10-2024,40,CA
+CLM100283,PT2283,Maxwell Clinic,Cigna,Approved,Duplicate Claim,24169,12993,4658,10-10-2024,14-10-2024,9,CA
+CLM100284,PT2284,Maxwell Hospital,Medicare,Approved,Coverage Expired,34568,841,11381,11-10-2024,15-10-2024,5,TX
+CLM100285,PT2285,Maxwell Diagnostics,UnitedHealthcare,Pending,Coverage Expired,23753,22117,17154,12-10-2024,16-10-2024,32,TX
+CLM100286,PT2286,Maxwell Hospital,Aetna,Submitted,Duplicate Claim,9935,38161,19539,13-10-2024,17-10-2024,20,FL
+CLM100287,PT2287,Maxwell Clinic,Aetna,Denied,,29052,13728,11777,14-10-2024,18-10-2024,11,IL
+CLM100288,PT2288,Maxwell Clinic,Medicare,Denied,Duplicate Claim,37884,10558,34396,15-10-2024,19-10-2024,15,CA
+CLM100289,PT2289,Maxwell Diagnostics,Medicare,Pending,,16893,16344,30373,16-10-2024,20-10-2024,32,IL
+CLM100290,PT2290,Maxwell Clinic,Blue Cross,Pending,Coverage Expired,11117,29711,33154,17-10-2024,21-10-2024,28,FL
+CLM100291,PT2291,Maxwell Hospital,UnitedHealthcare,Approved,Missing Info,39020,5769,6031,18-10-2024,22-10-2024,22,CA
+CLM100292,PT2292,Maxwell Diagnostics,UnitedHealthcare,Denied,Coverage Expired,10352,29154,27997,19-10-2024,23-10-2024,41,CA
+CLM100293,PT2293,Maxwell Hospital,Cigna,Submitted,Coverage Expired,31901,6556,6439,20-10-2024,24-10-2024,17,IL
+CLM100294,PT2294,Maxwell Hospital,Blue Cross,Pending,Invalid Code,6795,11020,22785,21-10-2024,25-10-2024,26,NY
+CLM100295,PT2295,Maxwell Clinic,Blue Cross,Submitted,Invalid Code,36493,34237,13392,22-10-2024,26-10-2024,44,TX
+CLM100296,PT2296,Maxwell Clinic,Blue Cross,Submitted,Invalid Code,34584,33898,28669,23-10-2024,27-10-2024,7,NY
+CLM100297,PT2297,Maxwell Clinic,Blue Cross,Denied,Invalid Code,45605,1951,28939,24-10-2024,28-10-2024,42,IL
+CLM100298,PT2298,Maxwell Clinic,UnitedHealthcare,Denied,,40075,19494,2282,25-10-2024,29-10-2024,26,TX
+CLM100299,PT2299,Maxwell Clinic,UnitedHealthcare,Pending,Duplicate Claim,36951,25351,34624,26-10-2024,30-10-2024,25,NY
+CLM100300,PT2300,Maxwell Diagnostics,Blue Cross,Denied,Missing Info,7727,27686,24364,27-10-2024,31-10-2024,10,TX
+CLM100301,PT2301,Maxwell Hospital,Cigna,Denied,Coverage Expired,32410,9818,1998,28-10-2024,01-11-2024,19,CA
+CLM100302,PT2302,Maxwell Hospital,Aetna,Denied,,36541,16484,31705,29-10-2024,02-11-2024,11,NY
+CLM100303,PT2303,Maxwell Hospital,Aetna,Submitted,Missing Info,23884,34087,9428,30-10-2024,03-11-2024,13,TX
+CLM100304,PT2304,Maxwell Hospital,Cigna,Pending,,645,21921,12336,31-10-2024,04-11-2024,8,TX
+CLM100305,PT2305,Maxwell Clinic,Blue Cross,Approved,,38278,10328,9342,01-11-2024,05-11-2024,40,TX
+CLM100306,PT2306,Maxwell Hospital,UnitedHealthcare,Submitted,Coverage Expired,16535,12748,7446,02-11-2024,06-11-2024,4,NY
+CLM100307,PT2307,Maxwell Diagnostics,Aetna,Denied,Duplicate Claim,3540,34351,7461,03-11-2024,07-11-2024,31,FL
+CLM100308,PT2308,Maxwell Diagnostics,Medicare,Submitted,Invalid Code,42922,30747,34587,04-11-2024,08-11-2024,28,NY
+CLM100309,PT2309,Maxwell Hospital,Medicare,Denied,Duplicate Claim,26660,18694,10516,05-11-2024,09-11-2024,11,IL
+CLM100310,PT2310,Maxwell Hospital,Cigna,Denied,Coverage Expired,18133,34801,13749,06-11-2024,10-11-2024,43,NY
+CLM100311,PT2311,Maxwell Diagnostics,Blue Cross,Submitted,Coverage Expired,29844,30554,17514,07-11-2024,11-11-2024,1,TX
+CLM100312,PT2312,Maxwell Diagnostics,Aetna,Pending,Coverage Expired,17514,18809,24950,08-11-2024,12-11-2024,38,CA
+CLM100313,PT2313,Maxwell Clinic,Blue Cross,Denied,Missing Info,15496,14772,34888,09-11-2024,13-11-2024,24,NY
+CLM100314,PT2314,Maxwell Diagnostics,Aetna,Pending,Duplicate Claim,49604,3771,10213,10-11-2024,14-11-2024,31,NY
+CLM100315,PT2315,Maxwell Clinic,Cigna,Approved,Duplicate Claim,42121,30568,28011,11-11-2024,15-11-2024,41,TX
+CLM100316,PT2316,Maxwell Clinic,Cigna,Denied,,12195,8629,34591,12-11-2024,16-11-2024,26,CA
+CLM100317,PT2317,Maxwell Clinic,Medicare,Pending,,3352,35165,17858,13-11-2024,17-11-2024,5,CA
+CLM100318,PT2318,Maxwell Clinic,Blue Cross,Pending,,16514,28572,18626,14-11-2024,18-11-2024,20,IL
+CLM100319,PT2319,Maxwell Clinic,Medicare,Approved,Coverage Expired,27542,6697,13467,15-11-2024,19-11-2024,41,NY
+CLM100320,PT2320,Maxwell Hospital,Blue Cross,Pending,Duplicate Claim,34255,32673,3134,16-11-2024,20-11-2024,11,CA
+CLM100321,PT2321,Maxwell Diagnostics,Medicare,Pending,Coverage Expired,40890,35825,16743,17-11-2024,21-11-2024,33,CA
+CLM100322,PT2322,Maxwell Clinic,UnitedHealthcare,Approved,Missing Info,24211,24870,15434,18-11-2024,22-11-2024,38,FL
+CLM100323,PT2323,Maxwell Diagnostics,UnitedHealthcare,Denied,,26622,18584,10233,19-11-2024,23-11-2024,27,FL
+CLM100324,PT2324,Maxwell Diagnostics,UnitedHealthcare,Pending,Coverage Expired,9660,19294,1141,20-11-2024,24-11-2024,34,CA
+CLM100325,PT2325,Maxwell Clinic,UnitedHealthcare,Pending,Coverage Expired,27713,23584,18019,21-11-2024,25-11-2024,15,IL
+CLM100326,PT2326,Maxwell Hospital,Aetna,Pending,Missing Info,39920,18133,20384,22-11-2024,26-11-2024,32,CA
+CLM100327,PT2327,Maxwell Clinic,UnitedHealthcare,Submitted,Invalid Code,7921,25422,22967,23-11-2024,27-11-2024,21,TX
+CLM100328,PT2328,Maxwell Hospital,Cigna,Approved,Duplicate Claim,21900,5317,11172,24-11-2024,28-11-2024,5,NY
+CLM100329,PT2329,Maxwell Diagnostics,Cigna,Submitted,Invalid Code,34037,16670,16390,25-11-2024,29-11-2024,6,IL
+CLM100330,PT2330,Maxwell Hospital,Aetna,Approved,,18227,29552,3267,26-11-2024,30-11-2024,38,TX
+CLM100331,PT2331,Maxwell Hospital,UnitedHealthcare,Denied,Coverage Expired,47382,8299,26167,27-11-2024,01-12-2024,22,IL
+CLM100332,PT2332,Maxwell Hospital,UnitedHealthcare,Denied,Missing Info,4858,22736,21312,28-11-2024,02-12-2024,18,TX
+CLM100333,PT2333,Maxwell Diagnostics,UnitedHealthcare,Pending,Missing Info,28982,2396,27840,29-11-2024,03-12-2024,14,NY
+CLM100334,PT2334,Maxwell Diagnostics,Medicare,Approved,Duplicate Claim,32617,25579,18990,30-11-2024,04-12-2024,10,NY
+CLM100335,PT2335,Maxwell Hospital,Blue Cross,Denied,Invalid Code,23664,26501,5906,01-12-2024,05-12-2024,13,FL
+CLM100336,PT2336,Maxwell Hospital,Medicare,Approved,Duplicate Claim,32410,20015,17297,02-12-2024,06-12-2024,31,TX
+CLM100337,PT2337,Maxwell Clinic,Blue Cross,Denied,Coverage Expired,32996,29609,2011,03-12-2024,07-12-2024,30,FL
+CLM100338,PT2338,Maxwell Hospital,UnitedHealthcare,Submitted,Duplicate Claim,44811,15378,11738,04-12-2024,08-12-2024,3,TX
+CLM100339,PT2339,Maxwell Clinic,UnitedHealthcare,Denied,Missing Info,29871,5405,28797,05-12-2024,09-12-2024,30,FL
+CLM100340,PT2340,Maxwell Hospital,Medicare,Submitted,Missing Info,38967,29612,11120,06-12-2024,10-12-2024,6,NY
+CLM100341,PT2341,Maxwell Clinic,Medicare,Denied,,18125,3139,8767,07-12-2024,11-12-2024,29,IL
+CLM100342,PT2342,Maxwell Diagnostics,Blue Cross,Pending,,34393,3684,22852,08-12-2024,12-12-2024,8,FL
+CLM100343,PT2343,Maxwell Hospital,Cigna,Submitted,Coverage Expired,11293,13793,13703,09-12-2024,13-12-2024,44,TX
+CLM100344,PT2344,Maxwell Hospital,Blue Cross,Denied,Invalid Code,31507,17369,929,10-12-2024,14-12-2024,43,TX
+CLM100345,PT2345,Maxwell Hospital,Medicare,Pending,Duplicate Claim,26266,7831,11951,11-12-2024,15-12-2024,44,NY
+CLM100346,PT2346,Maxwell Hospital,Medicare,Submitted,Coverage Expired,40032,37351,26039,12-12-2024,16-12-2024,33,TX
+CLM100347,PT2347,Maxwell Clinic,Aetna,Pending,,12823,8036,29504,13-12-2024,17-12-2024,17,CA
+CLM100348,PT2348,Maxwell Hospital,Medicare,Approved,Duplicate Claim,46299,8010,17438,14-12-2024,18-12-2024,11,IL
+CLM100349,PT2349,Maxwell Diagnostics,Aetna,Approved,,47320,1919,5744,15-12-2024,19-12-2024,13,FL
+CLM100350,PT2350,Maxwell Diagnostics,Cigna,Submitted,Duplicate Claim,45908,14275,18284,16-12-2024,20-12-2024,11,IL
+CLM100351,PT2351,Maxwell Hospital,Blue Cross,Denied,Invalid Code,8343,23552,7069,17-12-2024,21-12-2024,31,NY
+CLM100352,PT2352,Maxwell Diagnostics,Blue Cross,Submitted,Coverage Expired,14710,15561,19799,18-12-2024,22-12-2024,28,FL
+CLM100353,PT2353,Maxwell Hospital,Aetna,Pending,Duplicate Claim,16956,1731,33210,19-12-2024,23-12-2024,44,FL
+CLM100354,PT2354,Maxwell Hospital,Blue Cross,Denied,Missing Info,31867,9367,28226,20-12-2024,24-12-2024,6,CA
+CLM100355,PT2355,Maxwell Diagnostics,Medicare,Approved,Missing Info,10606,37781,4652,21-12-2024,25-12-2024,41,NY
+CLM100356,PT2356,Maxwell Hospital,UnitedHealthcare,Denied,Duplicate Claim,38457,27337,24323,22-12-2024,26-12-2024,16,TX
+CLM100357,PT2357,Maxwell Diagnostics,Aetna,Approved,Duplicate Claim,2972,9857,7597,23-12-2024,27-12-2024,4,CA
+CLM100358,PT2358,Maxwell Clinic,Blue Cross,Denied,Duplicate Claim,7204,9735,6591,24-12-2024,28-12-2024,35,CA
+CLM100359,PT2359,Maxwell Hospital,Aetna,Denied,Missing Info,4213,38066,25833,25-12-2024,29-12-2024,26,IL
+CLM100360,PT2360,Maxwell Clinic,Aetna,Denied,Missing Info,5551,462,11826,26-12-2024,30-12-2024,12,IL
+CLM100361,PT2361,Maxwell Diagnostics,UnitedHealthcare,Pending,Duplicate Claim,11256,35042,26417,27-12-2024,31-12-2024,11,IL
+CLM100362,PT2362,Maxwell Clinic,Medicare,Pending,,2975,19975,18693,28-12-2024,01-01-2025,37,CA
+CLM100363,PT2363,Maxwell Clinic,Aetna,Submitted,,36878,8761,14138,29-12-2024,02-01-2025,25,TX
+CLM100364,PT2364,Maxwell Diagnostics,Blue Cross,Submitted,Invalid Code,4755,17315,2169,30-12-2024,03-01-2025,18,FL
+CLM100365,PT2365,Maxwell Clinic,Cigna,Approved,Coverage Expired,14984,32891,18556,31-12-2024,04-01-2025,19,IL
+CLM100366,PT2366,Maxwell Clinic,Aetna,Pending,,35003,28347,22052,01-01-2025,05-01-2025,23,TX
+CLM100367,PT2367,Maxwell Diagnostics,Aetna,Approved,Missing Info,8758,35082,6313,02-01-2025,06-01-2025,38,NY
+CLM100368,PT2368,Maxwell Clinic,UnitedHealthcare,Submitted,,41247,10133,8315,03-01-2025,07-01-2025,18,IL
+CLM100369,PT2369,Maxwell Diagnostics,Medicare,Approved,Invalid Code,35696,8196,8036,04-01-2025,08-01-2025,26,FL
+CLM100370,PT2370,Maxwell Clinic,Cigna,Submitted,Invalid Code,45613,33272,31778,05-01-2025,09-01-2025,6,NY
+CLM100371,PT2371,Maxwell Diagnostics,Blue Cross,Pending,Coverage Expired,40694,30808,27734,06-01-2025,10-01-2025,4,NY
+CLM100372,PT2372,Maxwell Diagnostics,Cigna,Denied,,9033,5647,23173,07-01-2025,11-01-2025,44,FL
+CLM100373,PT2373,Maxwell Clinic,Blue Cross,Pending,Missing Info,33081,30614,30403,08-01-2025,12-01-2025,29,IL
+CLM100374,PT2374,Maxwell Clinic,Medicare,Approved,Missing Info,5749,2943,785,09-01-2025,13-01-2025,34,CA
+CLM100375,PT2375,Maxwell Clinic,Blue Cross,Approved,Duplicate Claim,19701,18981,6139,10-01-2025,14-01-2025,17,FL
+CLM100376,PT2376,Maxwell Hospital,UnitedHealthcare,Pending,Missing Info,10186,38628,6344,11-01-2025,15-01-2025,43,FL
+CLM100377,PT2377,Maxwell Hospital,UnitedHealthcare,Pending,Coverage Expired,47377,16192,18800,12-01-2025,16-01-2025,43,FL
+CLM100378,PT2378,Maxwell Hospital,UnitedHealthcare,Submitted,Coverage Expired,32507,17373,25372,13-01-2025,17-01-2025,16,NY
+CLM100379,PT2379,Maxwell Diagnostics,UnitedHealthcare,Approved,Missing Info,1161,37068,20538,14-01-2025,18-01-2025,2,TX
+CLM100380,PT2380,Maxwell Clinic,Cigna,Approved,Missing Info,45343,30982,14973,15-01-2025,19-01-2025,34,CA
+CLM100381,PT2381,Maxwell Diagnostics,Medicare,Pending,Duplicate Claim,30637,32562,5619,16-01-2025,20-01-2025,8,IL
+CLM100382,PT2382,Maxwell Hospital,Blue Cross,Denied,Missing Info,48056,31658,34704,17-01-2025,21-01-2025,13,IL
+CLM100383,PT2383,Maxwell Clinic,Blue Cross,Approved,Duplicate Claim,43328,14589,27716,18-01-2025,22-01-2025,42,TX
+CLM100384,PT2384,Maxwell Diagnostics,UnitedHealthcare,Denied,Duplicate Claim,49104,8227,3236,19-01-2025,23-01-2025,8,FL
+CLM100385,PT2385,Maxwell Clinic,UnitedHealthcare,Pending,Missing Info,11026,1471,15848,20-01-2025,24-01-2025,30,CA
+CLM100386,PT2386,Maxwell Diagnostics,Aetna,Pending,Invalid Code,3874,12218,2352,21-01-2025,25-01-2025,32,IL
+CLM100387,PT2387,Maxwell Clinic,Medicare,Submitted,Invalid Code,26092,39410,1932,22-01-2025,26-01-2025,36,IL
+CLM100388,PT2388,Maxwell Hospital,Cigna,Approved,Duplicate Claim,29482,12229,10913,23-01-2025,27-01-2025,30,FL
+CLM100389,PT2389,Maxwell Hospital,Blue Cross,Denied,Missing Info,707,2839,8556,24-01-2025,28-01-2025,1,TX
+CLM100390,PT2390,Maxwell Clinic,Aetna,Submitted,Invalid Code,35933,37027,21300,25-01-2025,29-01-2025,43,CA
+CLM100391,PT2391,Maxwell Diagnostics,Aetna,Approved,Missing Info,23697,22969,5498,26-01-2025,30-01-2025,39,TX
+CLM100392,PT2392,Maxwell Hospital,Blue Cross,Submitted,Missing Info,33900,5732,10582,27-01-2025,31-01-2025,17,TX
+CLM100393,PT2393,Maxwell Hospital,Cigna,Pending,Missing Info,3583,20944,9569,28-01-2025,01-02-2025,20,CA
+CLM100394,PT2394,Maxwell Hospital,Aetna,Approved,,29828,19045,4857,29-01-2025,02-02-2025,24,CA
+CLM100395,PT2395,Maxwell Clinic,Aetna,Submitted,Missing Info,46979,28528,340,30-01-2025,03-02-2025,22,IL
+CLM100396,PT2396,Maxwell Clinic,Medicare,Submitted,,43391,34821,16766,31-01-2025,04-02-2025,29,IL
+CLM100397,PT2397,Maxwell Diagnostics,Cigna,Denied,Duplicate Claim,20603,32003,26132,01-02-2025,05-02-2025,22,CA
+CLM100398,PT2398,Maxwell Diagnostics,Aetna,Submitted,Invalid Code,40391,27228,8491,02-02-2025,06-02-2025,44,NY
+CLM100399,PT2399,Maxwell Diagnostics,Cigna,Approved,Invalid Code,11254,18622,138,03-02-2025,07-02-2025,9,IL
+CLM100400,PT2400,Maxwell Clinic,Blue Cross,Approved,Invalid Code,34947,22660,358,04-02-2025,08-02-2025,37,NY
+CLM100401,PT2401,Maxwell Clinic,UnitedHealthcare,Denied,Invalid Code,16401,29355,9714,05-02-2025,09-02-2025,10,CA
+CLM100402,PT2402,Maxwell Diagnostics,Aetna,Approved,Invalid Code,33504,16676,19840,06-02-2025,10-02-2025,36,IL
+CLM100403,PT2403,Maxwell Diagnostics,Medicare,Pending,Invalid Code,7946,6888,34395,07-02-2025,11-02-2025,37,TX
+CLM100404,PT2404,Maxwell Clinic,Blue Cross,Approved,Invalid Code,37711,25300,30654,08-02-2025,12-02-2025,28,CA
+CLM100405,PT2405,Maxwell Diagnostics,Cigna,Approved,Duplicate Claim,48731,6604,25879,09-02-2025,13-02-2025,28,FL
+CLM100406,PT2406,Maxwell Hospital,Blue Cross,Submitted,Missing Info,29801,7645,15996,10-02-2025,14-02-2025,42,NY
+CLM100407,PT2407,Maxwell Clinic,Aetna,Submitted,Coverage Expired,26616,29600,26762,11-02-2025,15-02-2025,43,CA
+CLM100408,PT2408,Maxwell Diagnostics,Cigna,Approved,,41823,24559,13283,12-02-2025,16-02-2025,21,CA
+CLM100409,PT2409,Maxwell Clinic,UnitedHealthcare,Denied,Coverage Expired,19252,25770,19554,13-02-2025,17-02-2025,24,IL
+CLM100410,PT2410,Maxwell Hospital,Blue Cross,Submitted,Coverage Expired,32876,23317,20219,14-02-2025,18-02-2025,42,IL
+CLM100411,PT2411,Maxwell Clinic,Aetna,Denied,Missing Info,17169,15652,34919,15-02-2025,19-02-2025,40,IL
+CLM100412,PT2412,Maxwell Clinic,Medicare,Approved,Missing Info,33416,33665,9429,16-02-2025,20-02-2025,2,FL
+CLM100413,PT2413,Maxwell Clinic,Cigna,Approved,Missing Info,13895,19746,19218,17-02-2025,21-02-2025,8,IL
+CLM100414,PT2414,Maxwell Clinic,Blue Cross,Pending,Invalid Code,20921,2636,12452,18-02-2025,22-02-2025,27,CA
+CLM100415,PT2415,Maxwell Hospital,Blue Cross,Submitted,Duplicate Claim,26842,10179,18951,19-02-2025,23-02-2025,22,IL
+CLM100416,PT2416,Maxwell Clinic,UnitedHealthcare,Approved,Invalid Code,5395,32616,1307,20-02-2025,24-02-2025,37,TX
+CLM100417,PT2417,Maxwell Clinic,UnitedHealthcare,Pending,Duplicate Claim,11523,33640,14852,21-02-2025,25-02-2025,27,IL
+CLM100418,PT2418,Maxwell Diagnostics,Medicare,Submitted,Duplicate Claim,11199,7821,25232,22-02-2025,26-02-2025,29,FL
+CLM100419,PT2419,Maxwell Clinic,Medicare,Approved,Coverage Expired,10215,6471,26485,23-02-2025,27-02-2025,3,TX
+CLM100420,PT2420,Maxwell Diagnostics,Aetna,Approved,Coverage Expired,19669,23781,10238,24-02-2025,28-02-2025,44,CA
+CLM100421,PT2421,Maxwell Hospital,Aetna,Submitted,Duplicate Claim,16663,18774,1140,25-02-2025,01-03-2025,13,CA
+CLM100422,PT2422,Maxwell Hospital,Medicare,Submitted,Duplicate Claim,6282,21308,24842,26-02-2025,02-03-2025,10,NY
+CLM100423,PT2423,Maxwell Hospital,Medicare,Submitted,Invalid Code,23141,1933,26421,27-02-2025,03-03-2025,36,TX
+CLM100424,PT2424,Maxwell Hospital,Cigna,Approved,Invalid Code,19292,12785,1708,28-02-2025,04-03-2025,9,NY
+CLM100425,PT2425,Maxwell Diagnostics,UnitedHealthcare,Approved,Coverage Expired,49992,3948,3630,01-03-2025,05-03-2025,27,TX
+CLM100426,PT2426,Maxwell Clinic,Aetna,Pending,Missing Info,36085,13440,19595,02-03-2025,06-03-2025,34,TX
+CLM100427,PT2427,Maxwell Hospital,UnitedHealthcare,Denied,Duplicate Claim,31182,18221,10485,03-03-2025,07-03-2025,1,FL
+CLM100428,PT2428,Maxwell Clinic,UnitedHealthcare,Submitted,Invalid Code,48364,14657,28308,04-03-2025,08-03-2025,32,NY
+CLM100429,PT2429,Maxwell Diagnostics,Medicare,Approved,Coverage Expired,19380,3437,26086,05-03-2025,09-03-2025,25,FL
+CLM100430,PT2430,Maxwell Diagnostics,Cigna,Approved,Invalid Code,38567,397,16859,06-03-2025,10-03-2025,29,TX
+CLM100431,PT2431,Maxwell Diagnostics,Blue Cross,Submitted,Duplicate Claim,43185,11707,7684,07-03-2025,11-03-2025,7,CA
+CLM100432,PT2432,Maxwell Hospital,Cigna,Denied,Duplicate Claim,18573,30875,25552,08-03-2025,12-03-2025,3,TX
+CLM100433,PT2433,Maxwell Clinic,Cigna,Submitted,,36535,13022,1207,09-03-2025,13-03-2025,20,FL
+CLM100434,PT2434,Maxwell Clinic,UnitedHealthcare,Denied,Missing Info,37674,13224,1960,10-03-2025,14-03-2025,20,NY
+CLM100435,PT2435,Maxwell Clinic,Cigna,Approved,,25337,4050,557,11-03-2025,15-03-2025,30,NY
+CLM100436,PT2436,Maxwell Diagnostics,Aetna,Denied,Coverage Expired,18326,28033,29689,12-03-2025,16-03-2025,35,FL
+CLM100437,PT2437,Maxwell Hospital,UnitedHealthcare,Pending,Invalid Code,25481,8835,13893,13-03-2025,17-03-2025,35,NY
+CLM100438,PT2438,Maxwell Diagnostics,Aetna,Approved,Coverage Expired,10882,24787,32272,14-03-2025,18-03-2025,39,IL
+CLM100439,PT2439,Maxwell Diagnostics,Blue Cross,Pending,Duplicate Claim,4937,30951,882,15-03-2025,19-03-2025,27,CA
+CLM100440,PT2440,Maxwell Clinic,UnitedHealthcare,Submitted,,5935,4966,29535,16-03-2025,20-03-2025,26,CA
+CLM100441,PT2441,Maxwell Diagnostics,Blue Cross,Submitted,,25319,17294,12869,17-03-2025,21-03-2025,14,CA
+CLM100442,PT2442,Maxwell Clinic,UnitedHealthcare,Submitted,,37375,2027,7166,18-03-2025,22-03-2025,17,NY
+CLM100443,PT2443,Maxwell Hospital,Medicare,Denied,Coverage Expired,32482,34922,12982,19-03-2025,23-03-2025,18,NY
+CLM100444,PT2444,Maxwell Clinic,Cigna,Approved,Duplicate Claim,33828,11100,7269,20-03-2025,24-03-2025,29,TX
+CLM100445,PT2445,Maxwell Hospital,Medicare,Submitted,Invalid Code,12829,38123,28064,21-03-2025,25-03-2025,20,TX
+CLM100446,PT2446,Maxwell Clinic,Blue Cross,Submitted,Invalid Code,25669,19008,13527,22-03-2025,26-03-2025,27,CA
+CLM100447,PT2447,Maxwell Diagnostics,Cigna,Approved,Coverage Expired,22432,13119,2454,23-03-2025,27-03-2025,18,IL
+CLM100448,PT2448,Maxwell Diagnostics,UnitedHealthcare,Submitted,,35094,9669,20878,24-03-2025,28-03-2025,4,TX
+CLM100449,PT2449,Maxwell Hospital,Cigna,Pending,Missing Info,11921,9583,12991,25-03-2025,29-03-2025,1,TX
+CLM100450,PT2450,Maxwell Hospital,Aetna,Approved,Coverage Expired,45533,30873,2808,26-03-2025,30-03-2025,1,NY
+CLM100451,PT2451,Maxwell Hospital,Cigna,Approved,Coverage Expired,8129,13471,30386,27-03-2025,31-03-2025,26,IL
+CLM100452,PT2452,Maxwell Clinic,Aetna,Approved,Duplicate Claim,8825,31233,3802,28-03-2025,01-04-2025,20,CA
+CLM100453,PT2453,Maxwell Clinic,Cigna,Pending,Invalid Code,28995,6074,28753,29-03-2025,02-04-2025,23,TX
+CLM100454,PT2454,Maxwell Hospital,Aetna,Approved,Coverage Expired,32250,6819,21083,30-03-2025,03-04-2025,10,IL
+CLM100455,PT2455,Maxwell Diagnostics,Blue Cross,Pending,Coverage Expired,30119,11283,18354,31-03-2025,04-04-2025,11,IL
+CLM100456,PT2456,Maxwell Clinic,Medicare,Approved,,40961,31232,22190,01-04-2025,05-04-2025,41,CA
+CLM100457,PT2457,Maxwell Clinic,UnitedHealthcare,Denied,,8764,31098,6142,02-04-2025,06-04-2025,41,IL
+CLM100458,PT2458,Maxwell Clinic,Cigna,Submitted,Missing Info,13186,18433,28398,03-04-2025,07-04-2025,5,IL
+CLM100459,PT2459,Maxwell Hospital,Medicare,Denied,Duplicate Claim,46984,15239,33132,04-04-2025,08-04-2025,1,IL
+CLM100460,PT2460,Maxwell Hospital,UnitedHealthcare,Submitted,Missing Info,24726,1081,19503,05-04-2025,09-04-2025,17,TX
+CLM100461,PT2461,Maxwell Hospital,UnitedHealthcare,Pending,,7221,27924,34631,06-04-2025,10-04-2025,22,CA
+CLM100462,PT2462,Maxwell Hospital,Aetna,Denied,Invalid Code,21109,7123,16499,07-04-2025,11-04-2025,34,IL
+CLM100463,PT2463,Maxwell Hospital,Blue Cross,Approved,,7873,18789,8016,08-04-2025,12-04-2025,41,IL
+CLM100464,PT2464,Maxwell Diagnostics,Blue Cross,Submitted,Duplicate Claim,39175,29418,2384,09-04-2025,13-04-2025,29,TX
+CLM100465,PT2465,Maxwell Diagnostics,Medicare,Submitted,,49395,35181,15072,10-04-2025,14-04-2025,4,CA
+CLM100466,PT2466,Maxwell Hospital,Blue Cross,Denied,Duplicate Claim,29437,16580,14482,11-04-2025,15-04-2025,5,NY
+CLM100467,PT2467,Maxwell Clinic,Cigna,Pending,Duplicate Claim,6156,22563,21826,12-04-2025,16-04-2025,11,TX
+CLM100468,PT2468,Maxwell Hospital,Blue Cross,Denied,Duplicate Claim,9484,13865,2490,13-04-2025,17-04-2025,21,CA
+CLM100469,PT2469,Maxwell Diagnostics,Medicare,Pending,Duplicate Claim,30484,20654,25518,14-04-2025,18-04-2025,35,IL
+CLM100470,PT2470,Maxwell Diagnostics,Blue Cross,Pending,Duplicate Claim,8786,25943,24045,15-04-2025,19-04-2025,12,CA
+CLM100471,PT2471,Maxwell Clinic,Cigna,Submitted,Invalid Code,6401,23948,26910,16-04-2025,20-04-2025,26,CA
+CLM100472,PT2472,Maxwell Diagnostics,Aetna,Denied,Missing Info,32052,18958,24566,17-04-2025,21-04-2025,19,CA
+CLM100473,PT2473,Maxwell Hospital,Medicare,Denied,Coverage Expired,26209,21553,33905,18-04-2025,22-04-2025,7,NY
+CLM100474,PT2474,Maxwell Clinic,Aetna,Pending,Missing Info,31555,26690,27103,19-04-2025,23-04-2025,7,CA
+CLM100475,PT2475,Maxwell Hospital,Aetna,Denied,Duplicate Claim,38185,23428,5845,20-04-2025,24-04-2025,26,NY
+CLM100476,PT2476,Maxwell Hospital,Aetna,Approved,Invalid Code,8929,13789,21162,21-04-2025,25-04-2025,40,IL
+CLM100477,PT2477,Maxwell Clinic,UnitedHealthcare,Approved,,15216,38614,19337,22-04-2025,26-04-2025,5,NY
+CLM100478,PT2478,Maxwell Hospital,UnitedHealthcare,Denied,Invalid Code,49063,32958,22313,23-04-2025,27-04-2025,21,IL
+CLM100479,PT2479,Maxwell Diagnostics,Aetna,Denied,Duplicate Claim,11638,7152,26943,24-04-2025,28-04-2025,14,IL
+CLM100480,PT2480,Maxwell Hospital,Medicare,Pending,Invalid Code,35798,29750,12413,25-04-2025,29-04-2025,4,NY
+CLM100481,PT2481,Maxwell Clinic,Cigna,Approved,Invalid Code,23929,2851,276,26-04-2025,30-04-2025,23,TX
+CLM100482,PT2482,Maxwell Clinic,Cigna,Approved,Duplicate Claim,6272,6711,17611,27-04-2025,01-05-2025,42,FL
+CLM100483,PT2483,Maxwell Clinic,Blue Cross,Submitted,Invalid Code,48744,33543,11944,28-04-2025,02-05-2025,20,CA
+CLM100484,PT2484,Maxwell Hospital,Medicare,Pending,Coverage Expired,49019,22100,15906,29-04-2025,03-05-2025,15,FL
+CLM100485,PT2485,Maxwell Clinic,UnitedHealthcare,Submitted,Coverage Expired,36232,10703,20536,30-04-2025,04-05-2025,29,CA
+CLM100486,PT2486,Maxwell Clinic,Aetna,Approved,Invalid Code,40405,7539,27810,01-05-2025,05-05-2025,8,CA
+CLM100487,PT2487,Maxwell Hospital,Blue Cross,Pending,,17847,7010,12306,02-05-2025,06-05-2025,41,IL
+CLM100488,PT2488,Maxwell Diagnostics,Cigna,Denied,Duplicate Claim,17420,21684,10503,03-05-2025,07-05-2025,19,CA
+CLM100489,PT2489,Maxwell Hospital,UnitedHealthcare,Pending,Coverage Expired,32322,21338,19225,04-05-2025,08-05-2025,39,CA
+CLM100490,PT2490,Maxwell Clinic,UnitedHealthcare,Denied,,47159,22747,11590,05-05-2025,09-05-2025,28,NY
+CLM100491,PT2491,Maxwell Clinic,Aetna,Denied,Invalid Code,40608,2585,10886,06-05-2025,10-05-2025,27,FL
+CLM100492,PT2492,Maxwell Hospital,Cigna,Pending,,24063,38291,12866,07-05-2025,11-05-2025,4,NY
+CLM100493,PT2493,Maxwell Diagnostics,Medicare,Denied,Missing Info,8467,13821,1088,08-05-2025,12-05-2025,15,CA
+CLM100494,PT2494,Maxwell Clinic,UnitedHealthcare,Submitted,Coverage Expired,45683,7271,3363,09-05-2025,13-05-2025,35,IL
+CLM100495,PT2495,Maxwell Clinic,Aetna,Approved,Invalid Code,12371,29439,32792,10-05-2025,14-05-2025,37,NY
+CLM100496,PT2496,Maxwell Clinic,Medicare,Denied,Duplicate Claim,29263,20209,9764,11-05-2025,15-05-2025,1,NY
+CLM100497,PT2497,Maxwell Hospital,Cigna,Submitted,Invalid Code,12416,11831,20620,12-05-2025,16-05-2025,3,TX
+CLM100498,PT2498,Maxwell Clinic,UnitedHealthcare,Denied,Duplicate Claim,9234,15021,12935,13-05-2025,17-05-2025,24,CA
+CLM100499,PT2499,Maxwell Diagnostics,Medicare,Approved,Invalid Code,34113,19506,8068,14-05-2025,18-05-2025,27,IL
